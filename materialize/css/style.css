@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 1em;
+}
+
+.wraper {
+    width: 600px;
+    height: 450px;
+    border: 4px solid #3366ff;
+}
+
+.col-box-first,
+.col-box-second {
+    height: 400px;
+    margin: 20px 0;
+    border-right: 1px solid #3366ff;
+}
+
+.blue-box {
+    width: 34px;
+    height: 34px;
+    background: #3366ff;
+    margin: 5px 5px 0 5px;
+}
+
+.text-hello-left {
+    margin-left: 40px;
+}
+
+.text-hello-right {
+    margin-left: -80px;
+}
+
+.col-box-first .blue-box:first-child {
+    margin: 40px 0 0 10px;
+}
+
+.col-box-first .blue-box:nth-child(2) {
+    margin: 2px 0 0 46px;
+}
+
+.col-box-three .blue-box {
+    margin: 190px 0 0 70px;
+}
+
+.col-box-three span {
+    margin: -20px;
+}
+
+.col-box-first .blue-box:last-child {
+    margin: 60px 0 0 140px;
+}
+
+.col-box-second .blue-box {
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+
+.col-box-second span {
+    position: absolute;
+    top: 10px;
+    left: -50px
+}
